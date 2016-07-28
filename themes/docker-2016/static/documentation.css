@@ -246,8 +246,8 @@ div.docsidebarnav_section.affix ul {
     margin-left: 0.30rem;
     font-size: 14px;
 }
-​​nav#TableOfContents > ul {
-  margin-left: 0 !important;
+#TableOfContentsSection #TableOfContents > ul {
+  margin-left: 0;
 }
 .advisory {
 color: #F04124;
