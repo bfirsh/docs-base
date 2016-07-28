@@ -250,6 +250,17 @@ div.docsidebarnav_section.affix ul {
 #TableOfContentsSection #TableOfContents > ul {
   padding-left: 0;
 }
+
+/* HACK: Don't display current page title in TOC. */
+/* This removes one level of hierarchy and makes it a bit more compact. */
+#TableOfContentsSection #TableOfContents > ul > li > a {
+  display: none;
+}
+
+#TableOfContentsSection #TableOfContents > ul > li > ul {
+  padding-left: 0;
+}
+
 .advisory {
 color: #F04124;
     margin: -20px -20px 20px -20px;
